@@ -14,20 +14,26 @@ html {
 }
 
 :root {
-  --clr-light-blue: 178 60% 48%;
-  --clr-light-blue-hover: 178 75% 65%;
-  --clr-orange: 39 88% 58%;
-  --clr-orange-hover: 39 100% 69%;
-  --clr-dark-navy: 202 32% 15%;
-  --clr-navy: 199 35% 19%;
-  --clr-silver: 198 23% 72%;
-  --clr-silver-hover: 197 33% 89%;
+  --clr-light-blue: hsl(178 60% 48%);
+  --clr-light-blue-hover: hsl(178 75% 65%);
+  --clr-orange: hsl(39 88% 58%);
+  --clr-orange-hover: hsl(39 100% 69%);
+  --clr-dark-navy: hsl(202 32% 15%);
+  --clr-navy: hsl(199 35% 19%);
+  --clr-silver: hsl(198 23% 72%);
+  --clr-silver-hover: hsl(197 33% 89%);
   --box-shadow: 0px 22px 12px rgba(0, 0, 0, 0.15);
 }
 
 body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Outfit", sans-serif;
-  background-color: hsl(var(--clr-dark-navy));
+  background-color: var(--clr-dark-navy);
+  text-align: center;
 }
 
 /* global css */
@@ -43,4 +49,43 @@ a {
 
 li {
   list-style: none;
+}
+
+/* game-maun */
+.game-maun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  width: 35%;
+}
+
+.select-card {
+  border-radius: 15px;
+  padding: 20px;
+  background: var(--clr-navy);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 6) 0px -3px 0px inset;
+}
+
+.button-two {
+  padding: 0.5rem 3.5rem;
+  margin: 1.5rem;
+  border: 2px solid black;
+  box-shadow: var(--clr-dark-navy) 0px 30px 60px -12px inset,
+    var(--clr-dark-navy) 0px 30px 60px -12px inset;
+  border: none;
+  border-radius: 15px;
+  gap: 1rem;
+}
+
+/* last button */
+.last-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
 }
