@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap");
 
 *,
 *::after,
@@ -14,19 +14,20 @@ html {
 }
 
 :root {
-  --clr-paradise-pink: #ef476f;
-  --clr-orange-yellow-crayola: #ffd166;
-  --clr-caribbean-green: #06d6a0;
-  --clr-blue-ncs: #118ab2;
-  --clr-midnight-green-eagle-green: #073b4c;
-  --clr-white: #eee3e3;
-  --clr-black: #0c0b0b;
+  --clr-light-blue: 178 60% 48%;
+  --clr-light-blue-hover: 178 75% 65%;
+  --clr-orange: 39 88% 58%;
+  --clr-orange-hover: 39 100% 69%;
+  --clr-dark-navy: 202 32% 15%;
+  --clr-navy: 199 35% 19%;
+  --clr-silver: 198 23% 72%;
+  --clr-silver-hover: 197 33% 89%;
   --box-shadow: 0px 22px 12px rgba(0, 0, 0, 0.15);
 }
 
 body {
-  font-family: "Fira Sans Condensed", sans-serif;
-  background-color: var(--clr-white);
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(var(--clr-dark-navy));
 }
 
 /* global css */
