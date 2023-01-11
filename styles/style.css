@@ -65,7 +65,7 @@ li {
 
 .select-card {
   border-radius: 15px;
-  padding: 10px 0px;
+  padding: 10px 20px;
   background: var(--clr-navy);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 6) 0px -3px 0px inset;
@@ -73,16 +73,13 @@ li {
 
 /* two button */
 .button-two {
+  padding: 2px 30px;
   border: 2px solid black;
   box-shadow: var(--clr-dark-navy) 0px 30px 60px -12px inset,
     var(--clr-dark-navy) 0px 30px 60px -12px inset;
   border: none;
   border-radius: 15px;
   gap: 1rem;
-}
-
-.image {
-  width: 30%;
 }
 
 /* last button */
